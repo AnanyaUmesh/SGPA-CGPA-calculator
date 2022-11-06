@@ -1,0 +1,93 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, #0c7b93 0%, #00a8cc 100%);
+}
+h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+h3{
+    font-style: italic;
+    font-size: 30px;
+    color: #fff;
+}
+    .cgpa calculator{
+        width: 500px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: inset 5px 5px 5px 0px rgba(255, 255, 255, 0.03),
+        7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    }
+    .cgpa calculator > .cgpa title{
+        width: 100%;
+        height: 50px;
+        background-color: #00abfa;
+        text-align: center;
+        line-height: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+        color: #fff;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    .cgpa calculator > input{
+        border: none;
+        background-color: #fff;
+        outline: none;
+        width: 220px;
+        height: 40px;
+        border:1px solid #eee ;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: black;
+        margin: 10px;
+
+    }
+    ::placeholder{
+        color: black;
+        font-size: 15px;
+    }
+    .cgpa calculator .cgpa_output{
+        width: 100%;
+        margin-left: 19px;
+
+    }
+    .cgpa calculator .cgpa_output h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        margin-top: 25px;
+        color: #fff;
+
+
+    }
+    .cgpa calculator .cgpa_output reset,
+    .cgpa calculator .cgpa_output submit{
+        border: none;
+        background-color:#00abfa;
+        outline: none;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer;
+        border-radius: 12px;
+        margin: 25px 0px 25px 0px;
+        color: #fff;
+        box-shadow: inset 5px 5px 5px 0px rgba(255, 255, 255, 0.03),
+        7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+        padding: 5px 20px;
+
+
+    }
+    .cgpa calculator .cgpa_output reset{
+        margin-right: 15px;
+    }
+    .cgpa calculator .cgpa_output reset:active,
+    .cgpa calculator .cgpa_output submit:active{
+        box-shadow: inset 5px 5px 5px 0px rgba(255, 255, 255, 0.03),
+       inset 7px 7px 20px 0px rgba(0, 0, 0, 0.2),
+       inset  4px 4px 5px 0px rgba(0, 0, 0, 0.1); 
+    }
