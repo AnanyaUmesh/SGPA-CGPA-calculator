@@ -8,27 +8,24 @@
     <title>CGPA Calculator</title>
 </head>
 <body>
-    <div class ="cgpa calculator">
+    <div class ="cgpacalculator">
     <div class ="cgpa title"><h1>Engineering CGPA Calculator</h1>
     <h3>Enter your semester SGPA scores here to get your CGPA</h3></div>
-    <input type="text" id="first-sgpa" placeholder="1st semester">
-    <input type="text" id="two-sgpa" placeholder="2nd semester">
-    <input type="text" id="three-sgpa" placeholder="3rd semester">
-    <input type="text" id="four-sgpa" placeholder="4th semester">
-    <input type="text" id="five-sgpa" placeholder="5th semester">
-    <input type="text" id="six-sgpa" placeholder="6th semester">
-    <input type="text" id="seven-sgpa" placeholder="7th semester">
-    <input type="text" id="eight-sgpa" placeholder="8th semester">
+    <input type="number" min=0 max=10 step=0.1 id="first-sgpa" placeholder="1st semester">
+    <input type="number"  min=0 max=10 step=0.1 id="two-sgpa" placeholder="2nd semester">
+    <input type="number" min=0 max=10 step=0.1  id="three-sgpa" placeholder="3rd semester">
+    <input type="number"  min=0 max=10 step=0.1 id="four-sgpa" placeholder="4th semester">
+    <input type="number" min=0 max=10 step=0.1  id="five-sgpa" placeholder="5th semester">
+    <input type="number" min=0 max=10 step=0.1  id="six-sgpa" placeholder="6th semester">
+    <input type="number"  min=0 max=10 step=0.1 id="seven-sgpa" placeholder="7th semester">
+    <input type="number"  min=0 max=10 step=0.1 id="eight-sgpa" placeholder="8th semester">
     <div class="cgpa_output">
         <h2>TOTAL CGPA=</h2>
-        <button id="reset">reset</button>
-        <button id="submit">submit</button>
-
-
+        <button id="btn_re">reset</button>
+        <button id="btn_sub">submit</button>
     </div>
-    
-
     </div>
+    <script src="boot.js"></script>
     
 </body>
 </html>

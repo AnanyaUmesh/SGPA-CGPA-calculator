@@ -1,5 +1,10 @@
-body{
-    height: 100vh;
+*{
+    margin:0;
+   padding:0;
+   box-sizing:border-box;}
+
+  body{
+    height: 180vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,14 +20,14 @@ h3{
     font-size: 30px;
     color: #fff;
 }
-    .cgpa calculator{
+    .cgpacalculator{
         width: 500px;
         height: auto;
         border-radius: 10px;
         box-shadow: inset 5px 5px 5px 0px rgba(255, 255, 255, 0.03),
         7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
     }
-    .cgpa calculator > .cgpa title{
+    .cgpacalculator > .cgpa title{
         width: 100%;
         height: 50px;
         background-color: #00abfa;
@@ -34,12 +39,12 @@ h3{
         border-radius: 10px 10px 0px 0px;
 
     }
-    .cgpa calculator > input{
+    .cgpacalculator > input{
         border: none;
         background-color: #fff;
         outline: none;
-        width: 220px;
-        height: 40px;
+        width: 300px;
+        height: 80px;
         border:1px solid #eee ;
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
@@ -52,41 +57,41 @@ h3{
         color: black;
         font-size: 15px;
     }
-    .cgpa calculator .cgpa_output{
+    .cgpacalculator .cgpa_output{
         width: 100%;
         margin-left: 19px;
 
     }
-    .cgpa calculator .cgpa_output h1{
+    .cgpacalculator .cgpa_output h1{
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 25px;
-        margin-top: 25px;
+        font-size: 45px;
+        margin-top: 35px;
         color: #fff;
 
 
     }
-    .cgpa calculator .cgpa_output reset,
-    .cgpa calculator .cgpa_output submit{
+    .cgpacalculator .cgpa_output #btn_re,
+    .cgpacalculator .cgpa_output #btn_sub{
         border: none;
         background-color:#00abfa;
         outline: none;
-        font-size: 20px;
+        font-size: 50px;
         font-family: 'Times New Roman', Times, serif;
         cursor: pointer;
         border-radius: 12px;
-        margin: 25px 0px 25px 0px;
+        margin: 50px 0px 50px 0px;
         color: #fff;
         box-shadow: inset 5px 5px 5px 0px rgba(255, 255, 255, 0.03),
         7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
-        padding: 5px 20px;
+        padding: 15px 20px;
 
 
     }
-    .cgpa calculator .cgpa_output reset{
-        margin-right: 15px;
+    .cgpacalculator .cgpa_output #btn_re{
+        margin-right: 150px;
     }
-    .cgpa calculator .cgpa_output reset:active,
-    .cgpa calculator .cgpa_output submit:active{
+    .cgpacalculator .cgpa_output #btn_re:active,
+    .cgpacalculator .cgpa_output #btn_sub:active{
         box-shadow: inset 5px 5px 5px 0px rgba(255, 255, 255, 0.03),
        inset 7px 7px 20px 0px rgba(0, 0, 0, 0.2),
        inset  4px 4px 5px 0px rgba(0, 0, 0, 0.1); 
